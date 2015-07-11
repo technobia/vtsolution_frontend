@@ -16,7 +16,9 @@
     "url": "https://github.com/technobia/vtsolution_frontend/issues"
   },
   "homepage": "https://github.com/technobia/vtsolution_frontend#readme",
-  "dependencies": {},
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
   "devDependencies": {
     "grunt-cli": "0.1.13"
   }

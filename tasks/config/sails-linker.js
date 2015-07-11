@@ -260,20 +260,7 @@ module.exports = function(grunt) {
 			files: {
 				'views/**/*.jade': ['.tmp/public/jst.js']
 			}
-		},
-
-        //inclide js files
-        devRequireJavascript: {
-            options: {
-                startTag: '// SCRIPTS',
-                endTag: '// SCRIPTS END',
-                fileTmpl: '<script type="text/javascript" src="%s"></script>',
-                appRoot: '.tmp/public'
-            },
-            files: {
-                'bower_components/bootstrap/dist/js/bootstrap.min.js': ['.tmp/public/jst.js']
-            }
-        }
+		}
 	});
 
 	grunt.loadNpmTasks('grunt-sails-linker');

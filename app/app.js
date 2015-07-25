@@ -1,8 +1,3 @@
-/**
- * Created by apium on 25/07/2015.
- */
-"use strict";
-
 /** AngularJS App Configuration **/
 function AngularConfig($routeProvider, $locationProvider) {
 
@@ -12,25 +7,17 @@ function AngularConfig($routeProvider, $locationProvider) {
     });
 
     $routeProvider
-        .when('/', {templateUrl: '/templates/index.html'})
-        .otherwise({templateUrl: '/templates/index.html'})
+        .when('/', {templateUrl: '/templates/page.html'})
+        .otherwise({templateUrl: '/templates/page.html'})
     ;
 
 }
 
-AngularConfig.$inject = [ '$routeProvider', '$locationProvider'];
+AngularConfig.$inject = ['$routeProvider', '$locationProvider'];
 
 /** Application Building **/
 var app = angular.module('AngularApp', [
-        'ngRoute',
-        'ui.bootstrap',
-        'ui.bootstrap.tpls'
-    ], AngularConfig);
-
-app.manifest = {
-    authors: [ 'binh.tran' ],
-    version: 0.1,
-    src: [
-        'app/dashboard/DashboardController'
-    ]
-};
+    'ngRoute',
+    'ui.bootstrap',
+    'ui.bootstrap.tpls'
+], AngularConfig);

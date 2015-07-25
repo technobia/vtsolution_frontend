@@ -1,25 +1,32 @@
 {
-  "name": "vtsolution",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "vtsolution-frontend",
+  "author": "binh.tran",
+  "license" : "2.0.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/technobia/vtsolution_frontend.git"
+    "url": "https://github.com/technobia/vtsolution_frontend.git"
   },
-  "author": "THANHBINH",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/technobia/vtsolution_frontend/issues"
-  },
-  "homepage": "https://github.com/technobia/vtsolution_frontend#readme",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "angular": "1.4.1",
+    "angular-bootstrap": "0.12.2",
+    "angular-resource": "1.4.1",
+    "angular-route": "1.4.1",
+    "bootstrap": "3.3.5",
+    "jquery": "1.11.1",
+    "postal": "0.12.4",
+    "q": "1.4.1",
+    "require": "2.4.18",
+    "requirejs": "2.1.18"
   },
+  "engine": "node 0.4.1",
   "devDependencies": {
-    "grunt-cli": "0.1.13"
+    "grunt": "0.4.5",
+    "grunt-concurrent": "1.0.1",
+    "grunt-contrib-less": "0.12.0",
+    "grunt-contrib-requirejs": "0.4.4",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-preprocess": "4.2.0",
+    "load-grunt-tasks": "1.0.0",
+    "sinon": "1.15.4"
   }
 }

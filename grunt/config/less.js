@@ -17,7 +17,7 @@ module.exports = function(grunt) {
                 'report': 'min'
             },
             'files': {
-                'assets/css/vtsolution.min.css': 'assets/less/main.less'
+                'build/css/vtsolution.min.css': 'assets/less/main.less'
             }
         }
     };

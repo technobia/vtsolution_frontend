@@ -3,8 +3,7 @@
  */
 module.exports = function(grunt) {
     var compileTasks = [
-        'less:compile',
-        'requirejs:compile'
+        'less:compile'
     ];
-    grunt.registerTask('build', ['preprocess'].concat(compileTasks));
+    grunt.registerTask('build', compileTasks);
 };

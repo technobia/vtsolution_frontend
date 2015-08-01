@@ -2,7 +2,7 @@
  * Created by kevin on 2/9/15.
  */
 module.exports = function(grunt) {
-    var lessFiles = 'assets/less/**/*.less';
+    var lessFiles = 'assets/less/*';
     var jsFiles = 'app/**/*.js';
     var templatesFiles = 'templates/**/*.html';
     return {
@@ -19,6 +19,13 @@ module.exports = function(grunt) {
             options: {
                 livereload: 35729
             }
+        },
+        'eslint': {
+            options: {
+                atBegin: true
+            },
+            files: ['app/**/*.js', 'test/**/*.js', 'grunt/**/*.js', 'Gruntfile.js'],
+            tasks: ['eslint:check']
         }
     };
 };

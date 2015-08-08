@@ -22,6 +22,10 @@ function AngularConfig($routeProvider, $locationProvider) {
 
 }
 
-var app = angular.module('AngularApp', ['ngRoute']);
+var app = angular.module('AngularApp', [
+    'ngRoute',
+    'ui.bootstrap',
+    'ui.bootstrap.tpls'
+]);
 
 app.config(AngularConfig);

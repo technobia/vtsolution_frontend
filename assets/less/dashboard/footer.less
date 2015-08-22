@@ -1,0 +1,38 @@
+footer {
+  background-color: @color-light;
+}
+
+.footer-side {
+  .slogan {
+    padding: 15px 0;
+    border-bottom: 1px solid @color-lightgray;
+    color: @color-gray;
+  }
+
+  .col {
+    .make-xs-column(3, 0);
+  }
+
+  .list-menu {
+    padding: 15px 0;
+
+    .list-group {
+      margin-bottom: 15px;
+
+      &-item {
+        border: 0;
+        background: none;
+        padding: 3px 0;
+        color: @color-darkgray;
+
+        a {
+          color: @color-darkgray;
+        }
+
+        &:first-child {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

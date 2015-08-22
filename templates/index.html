@@ -25,10 +25,10 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid main-side padding-none" ng-controller="IndexController">
+<div class="container-fluid main-side padding-none" ng-controller="IndexController" ng-init="event.onLoad()">
     <div class="main-carousel">
-        <carousel interval="interval" no-wrap="noWrapSlides">
-            <slide ng-repeat="slide in slides" active="slide.active">
+        <carousel interval="data.interval" no-wrap="data.noWrapSlides">
+            <slide ng-repeat="slide in data.slides" active="slide.active">
                 <img ng-src="{{slide.image}}">
             </slide>
         </carousel>

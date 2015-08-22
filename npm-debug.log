@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'font-awesome-less' ]
+2 info using npm@2.13.0
+3 info using node@v0.12.5
+4 verbose install initial load of /home/apium/workspace/vtsolution/vtsolution_frontend/package.json
+5 warn package.json vtsolution-frontend@ No description
+6 warn package.json vtsolution-frontend@ No README data
+7 warn package.json vtsolution-frontend@ license should be a valid SPDX license expression
+8 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/angular/package.json
+9 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/angular-bootstrap/package.json
+10 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/angular-resource/package.json
+11 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/angular-route/package.json
+12 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/bootstrap/package.json
+13 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/grunt/package.json
+14 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/grunt-concurrent/package.json
+15 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/grunt-contrib-less/package.json
+16 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/grunt-contrib-watch/package.json
+17 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/grunt-http-server/package.json
+18 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/jquery/package.json
+19 verbose installManyTop reading scoped package data from /home/apium/workspace/vtsolution/vtsolution_frontend/node_modules/load-grunt-tasks/package.json
+20 info package.json grunt-contrib-less@0.12.0 No license field.
+21 info package.json grunt-contrib-watch@0.6.1 No license field.
+22 info package.json jquery@1.11.1 No license field.
+23 info package.json grunt@0.4.5 No license field.
+24 verbose readDependencies loading dependencies from /home/apium/workspace/vtsolution/vtsolution_frontend/package.json
+25 silly cache add args [ 'font-awesome-less', null ]
+26 verbose cache add spec font-awesome-less
+27 silly cache add parsed spec { raw: 'font-awesome-less',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'font-awesome-less',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: '*',
+27 silly cache add   type: 'range' }
+28 silly addNamed font-awesome-less@*
+29 verbose addNamed "*" is a valid semver range for font-awesome-less
+30 silly addNameRange { name: 'font-awesome-less', range: '*', hasData: false }
+31 silly mapToRegistry name font-awesome-less
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/font-awesome-less
+35 verbose addNameRange registry:https://registry.npmjs.org/font-awesome-less not in flight; fetching
+36 verbose request uri https://registry.npmjs.org/font-awesome-less
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 10:45:25
+39 verbose request id f00d871fddd46a1d
+40 http request GET https://registry.npmjs.org/font-awesome-less
+41 http 404 https://registry.npmjs.org/font-awesome-less
+42 verbose headers { 'content-type': 'application/json',
+42 verbose headers   'cache-control': 'max-age=0',
+42 verbose headers   'content-length': '2',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Sat, 22 Aug 2015 03:45:25 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '0',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+42 verbose headers   'x-cache': 'MISS',
+42 verbose headers   'x-cache-hits': '0',
+42 verbose headers   'x-timer': 'S1440215125.474886,VS0,VE218' }
+43 silly get cb [ 404,
+43 silly get   { 'content-type': 'application/json',
+43 silly get     'cache-control': 'max-age=0',
+43 silly get     'content-length': '2',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Sat, 22 Aug 2015 03:45:25 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '0',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-sin6920-SIN',
+43 silly get     'x-cache': 'MISS',
+43 silly get     'x-cache-hits': '0',
+43 silly get     'x-timer': 'S1440215125.474886,VS0,VE218' } ]
+44 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/font-awesome-less
+44 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:239:14)
+44 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+44 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:197:22)
+44 verbose stack     at Request.emit (events.js:110:17)
+44 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1050:14)
+44 verbose stack     at Request.emit (events.js:129:20)
+44 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:996:12)
+44 verbose stack     at IncomingMessage.emit (events.js:129:20)
+44 verbose stack     at _stream_readable.js:908:16
+44 verbose stack     at process._tickCallback (node.js:355:11)
+45 verbose statusCode 404
+46 verbose pkgid font-awesome-less
+47 verbose cwd /home/apium/workspace/vtsolution/vtsolution_frontend
+48 error Linux 3.16.0-23-generic
+49 error argv "node" "/usr/local/bin/npm" "install" "font-awesome-less"
+50 error node v0.12.5
+51 error npm  v2.13.0
+52 error code E404
+53 error 404 Registry returned 404 for GET on https://registry.npmjs.org/font-awesome-less
+53 error 404
+53 error 404 'font-awesome-less' is not in the npm registry.
+53 error 404 You should bug the author to publish it (or use the name yourself!)
+53 error 404 It was specified as a dependency of 'vtsolution-frontend'
+53 error 404
+53 error 404 Note that you can also install from a
+53 error 404 tarball, folder, http url, or git url.
+54 verbose exit [ 1, true ]

@@ -23,10 +23,20 @@ IndexController.prototype.listSlides = function() {
     ];
 };
 
+IndexController.prototype.listBrands = function() {
+    return [
+        {image: 'assets/images/promo_back_to_school_large.jpg'},
+        {image: 'assets/images/promo_camera_large.jpg'},
+        {image: 'assets/images/promo_diversity_large.jpg'},
+        {image: 'assets/images/promo_health_large.jpg'}
+    ];
+};
+
 IndexController.prototype.initData = function() {
     this.data.interval = 5000;
     this.data.noWrapSlides = false;
     this.data.slides = this.listSlides();
+    this.data.brands = this.listBrands();
 };
 
 app.controller('IndexController', IndexController);

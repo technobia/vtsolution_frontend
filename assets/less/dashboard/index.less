@@ -1,5 +1,22 @@
 .main-side {
   .main-carousel {
     margin-top: -45px;
+
+    .carousel-control {
+      display: none;
+    }
+
+    .carousel-indicators {
+      li {
+        margin-left: 3px;
+        margin-right: 3px;
+        border-color: @color-vts;
+
+        &.active {
+          border-color: white;
+          background: @color-vts;
+        }
+      }
+    }
   }
 }

@@ -25,14 +25,12 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid main-side" ng-controller="DashboardController">
-    <carousel interval="myInterval" no-wrap="noWrapSlides">
-        <slide ng-repeat="slide in slides" active="slide.active">
-            <img ng-src="{{slide.image}}" style="margin:auto;">
-            <div class="carousel-caption">
-                <h4>Slide {{$index}}</h4>
-                <p>{{slide.text}}</p>
-            </div>
-        </slide>
-    </carousel>
+<div class="container-fluid main-side padding-none" ng-controller="IndexController">
+    <div class="main-carousel">
+        <carousel interval="interval" no-wrap="noWrapSlides">
+            <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}" style="margin:auto;">
+            </slide>
+        </carousel>
+    </div>
 </div>

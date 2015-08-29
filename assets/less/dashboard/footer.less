@@ -1,8 +1,11 @@
 footer {
   background-color: @color-light;
+  padding-bottom: 15px;
 }
 
 .footer-side {
+  margin-bottom: 15px;
+
   .slogan {
     padding: 15px 0;
     border-bottom: 1px solid @color-lightgray;
@@ -27,6 +30,7 @@ footer {
 
         a {
           color: @color-darkgray;
+          font-size: 11px;
         }
 
         &:first-child {
@@ -34,5 +38,30 @@ footer {
         }
       }
     }
+  }
+}
+
+.social {
+  font-size: 11px;
+
+  .fa {
+    font-size: 16px;
+    vertical-align: bottom;
+    padding: 0 3px;
+    color: lightseagreen;
+
+    &:hover {
+      color: @brand-primary;
+    }
+  }
+
+  hr {
+    margin: 5px 0;
+    border-color: @color-lightgray;
+  }
+
+  .copyright {
+    font-size: 11px;
+    color: @color-gray;
   }
 }

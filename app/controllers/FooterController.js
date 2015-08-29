@@ -13,11 +13,10 @@ function FooterController($scope, RestAPI) {
 
 FooterController.prototype.onLoad = function() {
     this.initData();
-    this.getListMenu();
 };
 
 FooterController.prototype.initData = function() {
-
+    this.getListMenu();
 };
 
 FooterController.prototype.getListMenu = function() {

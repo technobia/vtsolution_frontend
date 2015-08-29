@@ -1,6 +1,6 @@
 [
   {
-    "title": "Máy bộ đàm chuyên dụng",
+    "title": "Icom Bộ Đàm Chuyên Dụng",
     "list": [
       {"title": "Máy cầm tay"},
       {"title": "Trạm cố định và di động"},
@@ -8,6 +8,41 @@
       {"title": "Máy Bộ Đàm License Free"},
       {"title": "Trạm lặp lại vô tuyến điện"},
       {"title": "Thiết bị thông tin khác"}
+    ]
+  },
+  {
+    "title": "Icom Điện Đàm Hàng Không",
+    "list": [
+      {"title": "Máy cầm tay"},
+      {"title": "Trạm cố định và lưu động"},
+      {"title": "Icom Điện Đàm Hàng Hải"},
+      {"title": "Máy cầm tay"},
+      {"title": "Trạm cố định và lưu động"},
+      {"title": "Máy thu phát sóng ngắn MF/HF"},
+      {"title": "Bộ Microphone đa năng"},
+      {"title": "Radar & MarineCommander"},
+      {"title": "Hệ thống nhận dạng tự động"}
+    ]
+  },
+  {
+    "title": "Icom Điện Đàm Nghiệp Dư",
+    "list": [
+      {"title": "Máy cầm tay"},
+      {"title": "Trạm cố định và lưu động"},
+      {"title": "Máy thu phát sóng ngắn HF"},
+      {"title": "Phụ kiện tùy chọn"},
+      {"title": "Icom Máy Thu Chuyên Dụng"},
+      {"title": "Máy Thu Cố Định"},
+      {"title": "Máy cầm tay"}
+    ]
+  },
+  {
+    "title": "Icom Phụ Kiện Các Loại",
+    "list": [
+      {"title": "Pin"},
+      {"title": "Bộ Sạc"},
+      {"title": "Adaptor"},
+      {"title": "Antenna"}
     ]
   }
 ]

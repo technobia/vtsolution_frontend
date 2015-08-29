@@ -17,6 +17,7 @@
   },
   "engine": "node 0.4.1",
   "devDependencies": {
+    "font-awesome": "FortAwesome/Font-Awesome#bf5831dd83fbf587431546d051b978ff7fc5acdf",
     "grunt": "^0.4.5",
     "grunt-concurrent": "^1.0.1",
     "grunt-contrib-less": "^0.12.0",

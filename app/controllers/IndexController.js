@@ -38,10 +38,4 @@ IndexController.prototype.initData = function() {
     this.data.brands = this.listBrands();
 };
 
-IndexController.prototype.initStyleCarousel = function() {
-    var height = $(window).height();
-    var item = $('.main-carousel');
-    console.log(item.html());
-};
-
 app.controller('IndexController', IndexController);

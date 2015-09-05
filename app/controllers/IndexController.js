@@ -17,9 +17,8 @@ IndexController.prototype.onLoad = function() {
 
 IndexController.prototype.listSlides = function() {
     return [
-        {image: 'assets/images/slide-0.jpg'},
-        {image: 'assets/images/slide-1.jpg'},
-        {image: 'assets/images/slide-2.jpg'}
+        {className: 'banner-1'},
+        {className: 'banner-1'}
     ];
 };
 

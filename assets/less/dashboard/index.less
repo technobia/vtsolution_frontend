@@ -20,12 +20,17 @@
       .item {
         min-height: 640px;
 
-        img {
-          position: absolute;
-          top: 0;
-          left: 0;
-          max-width: none;
+        > div {
+          background-position: center center;
+          background-origin:  border-box;
+          background-size: cover;
           height: 100%;
+          width: 100%;
+          position: absolute;
+        }
+
+        .banner-1 {
+          background-image: url(@bg-banner-1);
         }
       }
     }

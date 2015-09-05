@@ -3,7 +3,7 @@
     <div class="main-carousel">
         <carousel interval="data.interval" no-wrap="data.noWrapSlides">
             <slide ng-repeat="slide in data.slides" active="slide.active" carousel-height>
-                <img ng-src="{{slide.image}}">
+                <div class="{{slide.className}}"></div>
             </slide>
         </carousel>
     </div>

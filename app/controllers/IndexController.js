@@ -25,7 +25,7 @@ IndexController.prototype.listSlides = function() {
 IndexController.prototype.listBrands = function() {
     return [
         {image: 'assets/images/category-1.jpg'},
-        {image: 'assets/images/promo_camera_large.jpg'},
+        {image: 'assets/images/category-2.jpg'},
         {image: 'assets/images/promo_diversity_large.jpg'},
         {image: 'assets/images/promo_health_large.jpg'}
     ];

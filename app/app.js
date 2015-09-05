@@ -11,12 +11,12 @@ function AngularConfig($routeProvider, $locationProvider) {
 
     $routeProvider
         .when('/', {
-            templateUrl: '/templates/index.html',
-            controllerUrl: '/app/controllers/DashboardController'
+            templateUrl: 'templates/index.html',
+            controllerUrl: 'app/controllers/DashboardController'
         })
         .otherwise({
-            templateUrl: '/templates/index.html',
-            controllerUrl: '/app/controllers/DashboardController'
+            templateUrl: 'templates/index.html',
+            controllerUrl: 'app/controllers/DashboardController'
         })
     ;
 

@@ -1,6 +1,3 @@
-/**
- * Created by apium on 22/08/2015.
- */
 function BaseController($scope) {
     this.data = $scope.data = {};
     this.fn = $scope.fn = {};

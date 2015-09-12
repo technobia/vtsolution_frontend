@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" ng-controller="HeaderController" ng-init="event.onLoad()">
 
     <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -15,7 +15,7 @@
         <ul class="nav navbar-nav">
             <li class="active hidden-xs"><a href="#/"><img src="./assets/icons/logo.png"></a></li>
             <li><a href="#/">Giới thiệu</a></li>
-            <li><a href="#/">Sản phẩm</a></li>
+            <li><a href="#/" ng-click="event.onClickShowProduct()">Sản phẩm</a></li>
             <li><a href="#/">Dịch vụ</a></li>
             <li><a href="#/">Hỗ trợ</a></li>
             <li><a href="#/">Tin tức</a></li>
@@ -23,16 +23,24 @@
         </ul>
     </div>
 
-    <div class="sub-product">
+    <div class="sub-product" collapse="data.isShowProduct">
         <ul class="list list-inline">
             <li>
-                <a href="#" class="pic"><img src="./assets/icons/icom.png"></a>
+                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/icom.png"></a>
                 <div class="text">Icom</div>
             </li>
-            <li>b</li>
-            <li>c</li>
-            <li>d</li>
-            <li>e</li>
+            <li>
+                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/jmc.png"></a>
+                <div class="text">JMC</div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/sonic.png"></a>
+                <div class="text">Sonic</div>
+            </li>
+            <li>
+                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/mcmurdo.png"></a>
+                <div class="text">McMurdo</div>
+            </li>
         </ul>
     </div>
 </div>

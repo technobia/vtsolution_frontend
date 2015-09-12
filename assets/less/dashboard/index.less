@@ -57,6 +57,12 @@
         position: absolute;
         left: 50%;
         margin-left: -320px;
+        .transition(ease-in, 0.2s);
+        .filter-grayscale(0.6);
+
+        &:hover {
+          .filter-grayscale(0);
+        }
       }
     }
   }

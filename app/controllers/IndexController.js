@@ -26,8 +26,8 @@ IndexController.prototype.listBrands = function() {
     return [
         {image: 'assets/images/category-1.jpg'},
         {image: 'assets/images/category-2.jpg'},
-        {image: 'assets/images/promo_diversity_large.jpg'},
-        {image: 'assets/images/promo_health_large.jpg'}
+        {image: 'assets/images/category-3.jpg'},
+        {image: 'assets/images/category-4.jpg'}
     ];
 };
 

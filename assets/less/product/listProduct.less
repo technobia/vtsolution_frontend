@@ -48,15 +48,34 @@
         h4 {
           text-align: center;
           display: block;
-          margin: 7px 0 5px;
-          font-weight: 700;
+          margin: 10px 0 7px;
+          font-weight: 500;
         }
       }
 
-      &-description {
-        text-align: center;
+      &:hover {
+        .product-item-quick-view {
+          opacity: 1;
+        }
+      }
+
+      &-quick-view {
+        .transition(ease-in, 0.2s);
+        opacity: 0;
         display: block;
-        margin: 10px 0 7px;
+        background-color: rgba(0, 0, 0, 0.4);
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        left: 5px;
+        right: 5px;
+        bottom: 43px;
+
+        span {
+          color: white;
+          text-transform: uppercase;
+        }
       }
     }
   }

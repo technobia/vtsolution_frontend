@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" ng-include="'templates/header.html'"></nav>
+<div ng-include="'templates/header.html'"></div>
 <div class="container-fluid main-side padding-none" ng-controller="IndexController" ng-init="event.onLoad()">
     <div class="main-carousel">
         <carousel interval="data.interval" no-wrap="data.noWrapSlides">
@@ -16,7 +16,4 @@
         <a href="#/">Khuyến mãi mua Icom tặng tai nghe <span class="fa fa-angle-right"></span></a>
     </div>
 </div>
-<footer class="container-fluid"
-        ng-include="'templates/footer.html'"
-        ng-controller="FooterController"
-        ng-init="event.onLoad()"></footer>
+<div ng-include="'templates/footer.html'"></div>

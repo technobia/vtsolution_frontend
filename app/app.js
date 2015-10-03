@@ -14,6 +14,9 @@ function AngularConfig($routeProvider, $locationProvider) {
             templateUrl: 'templates/index.html',
             controllerUrl: 'app/controllers/DashboardController'
         })
+        .when('/products/icom', {
+            templateUrl: 'templates/products/listIcom.html'
+        })
         .otherwise({
             templateUrl: 'templates/index.html',
             controllerUrl: 'app/controllers/DashboardController'

@@ -1,46 +1,52 @@
-<div class="container-fluid" ng-controller="HeaderController" ng-init="event.onLoad()">
+<nav class="navbar navbar-default">
+    <div class="container-fluid" ng-controller="HeaderController" ng-init="event.onLoad()">
 
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand visible-xs" href="#/"><img src="./assets/icons/logo.png"></a>
-    </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#/"><img src="./assets/icons/logo.png"></a>
+        </div>
 
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-            <li class="active hidden-xs"><a href="#/"><img src="./assets/icons/logo.png"></a></li>
-            <li><a href="#/">Giới thiệu</a></li>
-            <li><a href="#/" ng-click="event.onClickShowProduct()" class="to-sub-product">Sản phẩm</a></li>
-            <li><a href="#/">Dịch vụ</a></li>
-            <li><a href="#/">Hỗ trợ</a></li>
-            <li><a href="#/">Tin tức</a></li>
-            <li><a href="#/">Liên hệ</a></li>
-        </ul>
-    </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active hidden-xs"><a href="#/"><img src="./assets/icons/logo.png"></a></li>
+                <li><a href="#/">Giới thiệu</a></li>
+                <li><a href="#/" ng-click="event.onClickShowProduct()" class="to-sub-product">Sản phẩm</a></li>
+                <li><a href="#/">Dịch vụ</a></li>
+                <li><a href="#/">Hỗ trợ</a></li>
+                <li><a href="#/">Tin tức</a></li>
+                <li><a href="#/">Liên hệ</a></li>
+            </ul>
+        </div>
 
-    <div class="sub-product" collapse="data.isShowProduct">
-        <ul class="list list-inline">
-            <li>
-                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/icom.png"></a>
-                <div class="text">Icom</div>
-            </li>
-            <li>
-                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/jmc.png"></a>
-                <div class="text">JMC</div>
-            </li>
-            <li>
-                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/sonic.png"></a>
-                <div class="text">Sonic</div>
-            </li>
-            <li>
-                <a href="javascript:void(0)" class="pic"><img src="./assets/icons/mcmurdo.png"></a>
-                <div class="text">McMurdo</div>
-            </li>
-        </ul>
+        <div class="sub-product" collapse="data.isShowProduct">
+            <ul class="list list-inline">
+                <li>
+                    <a href="#/products/icom/" class="pic"><img src="./assets/icons/icom.png"></a>
+
+                    <div class="text">Icom</div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="pic"><img src="./assets/icons/jmc.png"></a>
+
+                    <div class="text">JMC</div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="pic"><img src="./assets/icons/sonic.png"></a>
+
+                    <div class="text">Sonic</div>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="pic"><img src="./assets/icons/mcmurdo.png"></a>
+
+                    <div class="text">McMurdo</div>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
+</nav>

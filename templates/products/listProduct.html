@@ -1,0 +1,73 @@
+<div ng-include="'templates/header.html'"></div>
+<div class="list-product" ng-controller="ListProductController" ng-init="event.onLoad()">
+    <div class="container">
+        <div class="container-heading">
+            <h3>Icom</h3>
+        </div>
+        <div class="container-left">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="product-body">
+                        <div class="product-item">
+                            <div class="product-item-body">
+                                <div class="product-item-image">
+                                    <img src="assets/products/ic-f3002.jpg" class="img-responsive">
+                                </div>
+                                <div class="product-item-title"><h4>IC-F3002</h4></div>
+                                <div class="product-item-quick-view"><span>Chi tiết</span></div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item-body">
+                                <div class="product-item-image">
+                                    <img src="assets/products/ic-f3002.jpg" class="img-responsive">
+                                </div>
+                                <div class="product-item-title"><h4>IC-F3002</h4></div>
+                                <div class="product-item-quick-view"><span>Chi tiết</span></div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item-body">
+                                <div class="product-item-image">
+                                    <img src="assets/products/ic-f3002.jpg" class="img-responsive">
+                                </div>
+                                <div class="product-item-title"><h4>IC-F3002</h4></div>
+                                <div class="product-item-quick-view"><span>Chi tiết</span></div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-item-body">
+                                <div class="product-item-image">
+                                    <img src="assets/products/ic-f3002.jpg" class="img-responsive">
+                                </div>
+                                <div class="product-item-title"><h4>IC-F3002</h4></div>
+                                <div class="product-item-quick-view"><span>Chi tiết</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <accordion close-others="true">
+                <accordion-group heading="Máy bộ đàm chuyên dụng"
+                                 is-open="false">
+                    <ul class="list">
+                        <li class="list-item"><span>Máy cầm tay</span></li>
+                        <li class="list-item"><span>Máy trạm cố định</span></li>
+                        <li class="list-item"><span>Máy trạm di động</span></li>
+                    </ul>
+                </accordion-group>
+                <accordion-group heading="Máy bộ đàm hàng không"
+                                 is-open="false">
+                    <ul class="list">
+                        <li class="list-item"><span>Máy cầm tay</span></li>
+                        <li class="list-item"><span>Máy trạm cố định</span></li>
+                        <li class="list-item"><span>Máy trạm di động</span></li>
+                    </ul>
+                </accordion-group>
+            </accordion>
+        </div>
+    </div>
+</div>
+<div ng-include="'templates/footer.html'"></div>

@@ -5,7 +5,7 @@ define(function(require) {
     'use strict';
     var config = require('config');
 
-    var app = angular.module('sonias', [
+    var app = angular.module('vtsolution', [
         'ngRoute'
     ]);
 
